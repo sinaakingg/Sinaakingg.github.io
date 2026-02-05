@@ -1,10 +1,4 @@
-// ======= تنظیم رمز مدیر =======
-const PASSWORD = "1234";
-
-// ======= ورود مدیر =======
-function login(){
-  if(document.getElementById('pass').value === PASSWORD){
-    document.getElementById('loginBox').classList.add('hidden');
+ document.getElementById('loginBox').classList.add('hidden');
     document.getElementById('panel').classList.remove('hidden');
   } else alert('رمز اشتباه است');
 }
